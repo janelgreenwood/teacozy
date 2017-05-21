@@ -26,13 +26,15 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: black;
+  opacity: 0.9;
 }
 
 #mission {
   background-image: url("../images/background.jpg");
   height: 700px;
   width: 1200px;
-  margin: 70px auto 0px auto;
+  margin: 70px auto 80px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,4 +48,36 @@ header {
   text-align: center;
   margin: 0;
   padding: 10px;
+}
+
+#featured {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 70px;
+}
+
+#featured h2,
+#featured h4 {
+  text-align: center;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea {
+  display: inline-block;
+  margin: 10px;
+  justify-content: center;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row2 {
+  margin: 0 auto 0 auto;
 }
